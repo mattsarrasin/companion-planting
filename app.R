@@ -75,7 +75,7 @@ ui <- fluidPage(
 					h5(p("Each plant is represented as a node within a network tied together (the links) by their respective association, be it beneficial or detrimental. Mouse over the nodes to reveal their associations. The solid links connecting two nodes indicate that there is peer-reviewed experimental data to support the connection. A broken line suggests there is an association, but it hasn't verified in a peer-reviewed academic journal (to my current knowledge). Each node can be coloured either by botanical classification of lifecycle (artificially simplified for visualisation purposes since many varieties of the same plant can be annuals, biennials or perennials) or by maximum plant height or length (typical varieties that thrive in Canadian-like climates). You can also drag nodes around to rearrange the network, click on nodes for additional information, or quickly search for a specific plant in the drop-down menu.")),
 					br(),
 					h4(p("Code")),
-					h5(p("Source code available at ", a("GitHub", href="https://github.com/mattsarrasin"), ".")),
+					h5(p("Source code available at ", a("GitHub", href="https://github.com/mattsarrasin/companion-planting"), ".")),
 					br(),
 					h4(p("Author")),
 					h5(p("Matt Sarrasin")),
